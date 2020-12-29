@@ -2483,6 +2483,11 @@ input, select, textarea {
 	}
 
 /* Icon */
+	.icon-container {
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+	}
 
 	.icon {
 		text-decoration: none;
@@ -2520,10 +2525,10 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			width: 2.5em;
-			height: 2.5em;
+			width: 3.5em;
+			height: 3.5em;
 			display: block;
-			background: #ffffff;
+			/* background: #ffffff; */
 			border-radius: 100%;
 			color: #312450;
 			text-align: center;
@@ -2560,6 +2565,10 @@ input, select, textarea {
 				}
 
 /* Image */
+	.image-icon {
+		max-width: 90%;
+		max-height: 90%;
+	}
 
 	.image {
 		border-radius: 0.25em;
